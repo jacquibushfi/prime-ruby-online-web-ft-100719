@@ -1,9 +1,3 @@
-# def prime?(integer)
-#  (2..integer - 1).each {|x| return false if (integer % x) == 0 }
-#  true
-# end 
-# end
-
 
 def prime?(value)
   if value <= 1 
