@@ -13,6 +13,7 @@ def prime?(value)
       if value % i == 0
         return false
       end
+     end  
    end
   true  
 end
